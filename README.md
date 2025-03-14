@@ -1,5 +1,7 @@
 # Cloud Events PHP
 
+[![CI](https://github.com/JustSteveKing/cloudevents/actions/workflows/ci.yml/badge.svg)](https://github.com/JustSteveKing/cloudevents/actions/workflows/ci.yml)
+
 Welcome to the **Cloud Events PHP** repository! This library enables you to create and manage Cloud Events in PHP with ease.
 
 ## Table of Contents

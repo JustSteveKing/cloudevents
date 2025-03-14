@@ -1,7 +1,19 @@
 # Cloud Events PHP
 
-[![CI](https://github.com/JustSteveKing/cloudevents/actions/workflows/ci.yml/badge.svg)](https://github.com/JustSteveKing/cloudevents/actions/workflows/ci.yml)
+<!-- BADGES_START -->
+[![Latest Version][badge-release]][packagist]
+[![PHP Version][badge-php]][php]
+![tests](https://github.com/juststeveking/cloudevents/workflows/tests/badge.svg)
+[![Total Downloads][badge-downloads]][downloads]
 
+[badge-release]: https://img.shields.io/packagist/v/juststeveking/cloudevents.svg?style=flat-square&label=release
+[badge-php]: https://img.shields.io/packagist/php-v/juststeveking/cloudevents.svg?style=flat-square
+[badge-downloads]: https://img.shields.io/packagist/dt/juststeveking/cloudevents.svg?style=flat-square&colorB=mediumvioletred
+
+[packagist]: https://packagist.org/packages/juststeveking/cloudevents
+[php]: https://php.net
+[downloads]: https://packagist.org/packages/juststeveking/cloudevents
+<!-- BADGES_END -->
 Welcome to the **Cloud Events PHP** repository! This library enables you to create and manage [Cloud Events](https://cloudevents.io/) in PHP with ease.
 
 ## Table of Contents

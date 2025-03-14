@@ -1,0 +1,70 @@
+{
+  "name": "juststeveking/cloudevents",
+  "description": "Cloud Events in PHP.",
+  "license": "MIT",
+  "type": "library",
+  "homepage": "https://github.com/juststeveking/cloudevents",
+  "readme": "README.md",
+  "authors": [
+    {
+      "role": "Developer",
+      "name": "Steve McDougall",
+      "email": "juststevemcd@gmail.com",
+      "homepage": "https://juststeveking.link"
+    }
+  ],
+  "support": {
+    "email": "juststevemcd@gmail.com",
+    "issues": "https://github.com/juststeveking/cloudevents/issues",
+    "source": "https://github.com/juststeveking/cloudevents"
+  },
+  "require": {
+    "php": "^8.4"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "phpunit/phpunit": "^12.0",
+    "phpstan/phpstan": "^2.1",
+    "phpstan/phpstan-strict-rules": "^2.0",
+    "laravel/pint": "^1.21"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "JustSteveKing\\CloudEvents\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JustSteveKing\\CloudEvents\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    },
+    "preferred-install": {
+      "*": "dist"
+    },
+    "github-protocols": [
+      "git","ssh","https"
+    ],
+    "optimize-autoloader": true,
+    "classmap-authoritative": true
+  },
+  "scripts": {
+    "lint": [
+      "./vendor/bin/pint --test"
+    ],
+    "pint": [
+      "./vendor/bin/pint"
+    ],
+    "stan": [
+      "./vendor/bin/phpstan analyse --memory-limit=-1"
+    ],
+    "test": [
+      "./vendor/bin/phpunit --testdox"
+    ]
+  }
+}

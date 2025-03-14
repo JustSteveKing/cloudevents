@@ -3,7 +3,7 @@
 <!-- BADGES_START -->
 [![Latest Version][badge-release]][packagist]
 [![PHP Version][badge-php]][php]
-![tests](https://github.com/juststeveking/cloudevents/workflows/ci/badge.svg)
+[![Tests](https://github.com/JustSteveKing/cloudevents/actions/workflows/ci.yml/badge.svg)](https://github.com/JustSteveKing/cloudevents/actions/workflows/ci.yml)
 [![Total Downloads][badge-downloads]][downloads]
 
 [badge-release]: https://img.shields.io/packagist/v/juststeveking/cloudevents.svg?style=flat-square&label=release

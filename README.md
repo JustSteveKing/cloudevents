@@ -193,7 +193,3 @@ $uploadEvent = CloudEvent::make([
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-For more information, visit the [GitHub repository](https://github.com/Treblle/cloudevent-php).
